@@ -1,6 +1,9 @@
 # toolkit
 
 App em Flutter com um conjunto de ferramentas e demonstrações de programação
+<p align="center">
+  <img src="https://github.com/fabiogia/Toolkit/blob/master/assets/icon/icon.png">
+</p>
 
 # Deploy
 ```
