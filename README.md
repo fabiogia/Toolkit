@@ -1,11 +1,11 @@
-# toolkit
+# Toolkit
 
 App em Flutter com um conjunto de ferramentas e demonstrações de programação
 <p align="center">
-  <img src="https://github.com/fabiogia/Toolkit/blob/master/assets/icon/icon.png">
+  <img width="120" height="120" src="https://github.com/fabiogia/Toolkit/blob/master/assets/icon/icon.png">
 </p>
 
-# Deploy
+## Deploy
 ```
 cd toolkit
 flutter build apk
