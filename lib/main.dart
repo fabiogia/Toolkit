@@ -177,11 +177,13 @@ class _MyHomePageState extends State<MyHomePage> {
       [ "database", "Demo Sqflite" ]
     ];
     
+    var isPortrait = MediaQuery.of(context).orientation == Orientation.portrait;
+
     return ListView(
       children: <Widget>[
         _camposMeuIp(),
         GridView.builder(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: isPortrait ? 3 : 5),
           itemCount: _tituloBotoes.length,
           itemBuilder: (context, index) =>
             SizedBox.expand(
